@@ -65,6 +65,8 @@ def is_leap_year(a_year):
 
 sl = [0, 1, 2, 3, 4]
 
+
+
 def is_consecutive(a_list):
     i = 0
     status = True
