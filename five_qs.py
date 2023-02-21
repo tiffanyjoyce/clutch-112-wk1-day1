@@ -6,7 +6,7 @@ def hi(un):
     print(f'Hey {un.title()}!')
     return f'Hey {un.title()}!'
 print(hi('Brendan'))
-   
+
 
 # Question 2 - Print first odd numbersbetween 1 and 100
 
@@ -15,16 +15,16 @@ print(hi('Brendan'))
 # def odd_numbers():
 #     for i in range(1,101,2):
 #         print(i)
-        
+
 # odd_numbers()
-        
+
 def odd_numbers2():
         numbers = list(range(0, 101))
         print(numbers)
         for number in numbers:
             if number % 2 != 0:
                 print(number)
-        
+
 # odd_numbers2()
 
 
@@ -75,3 +75,5 @@ def is_consecutive(a_list):
             status = False
             break
     print(status)
+
+# hello Brandt!
